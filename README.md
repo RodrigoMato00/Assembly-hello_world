@@ -18,14 +18,16 @@ If you want to execute this program, you first need the Netwide Assembler, nasm,
       //ld: to linker format
       
 ~/ ./helloworld
-
+Hello world!
+~/
+```
 
 # Basic Syntax
 Basically a assembly instruction is made by a `mnemonic register1, register2`,
 and we just keep putting and taking out values form these registers.
 That `mnemonic` is a assembly instruction that will make some operation between (usually) two registers.
 
-```asm
+```
 mov eax, ebx ; Will move the value from ebx to eax
 ```
 
