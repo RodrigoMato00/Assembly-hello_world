@@ -12,3 +12,9 @@ If you want to execute this program, you first need the Netwide Assembler, nasm,
         //-e: preprocess only (writes output to stdout by default).
         //-l: listfile, write listing to a listfile.
         //-f64: fromat 64.
+        
+~/ ld helloworld.o -o helloworld
+
+      //ld: to linker format
+      
+~/ ./helloworld
